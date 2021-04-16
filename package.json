@@ -1,0 +1,30 @@
+{
+  "name": "taapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "test": "tests",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ccxt": "^1.41.70",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "heikinashi": "^1.0.6",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.15",
+    "node-binance-api": "^0.12.4",
+    "node-cron": "^3.0.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "description": ""
+}
